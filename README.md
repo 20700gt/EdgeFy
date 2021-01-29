@@ -43,7 +43,7 @@ RECORD=rec_HTTPs/realty_rec_req_res.gor SERVER=subject_apps/ionic2-realty-rest/s
 
 - Briefly run a demo
   - Generated an execution trace script for realty-rest is located in [execution_traces/trace_realty.py](https://github.com/20700gt/EdgeFy/blob/master/execution_traces/trace_realty.py). 
-  - This z3py script will replicate required remote services of this benchmark for given the Subject. Then, EdgeFy generates Edge Replica and transforms original Cloud Program by using [templates](https://github.com/20700gt/EdgeFy/tree/main/src/templates).
+  - This z3py script will replicate required remote services of this benchmark for given the Subject. Then, EdgeFy generates Edge Replica and transforms original Cloud Program by using [templates](https://github.com/20700gt/EdgeFy/tree/master/src/templates).
     ```bash
     python execution_traces/trace_realty.py & node src/js/generator_edge_cloud.js
     ```  
